@@ -1,0 +1,11 @@
+{
+  "name": "Zuzu AI - Android Voice & Chat Assistant",
+  "description": "Zuzu AI (formerly STONIC AI) native Android assistant featuring dual gender voice identities (Male Zuzu & Female Zuzu) with ElevenLabs integration, voice-activated identity switching in English & Bengali, separated text and voice histories, continuous listening, and 10 personalities.",
+  "requestFramePermissions": [
+    "android.permission.RECORD_AUDIO",
+    "android.permission.MODIFY_AUDIO_SETTINGS"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

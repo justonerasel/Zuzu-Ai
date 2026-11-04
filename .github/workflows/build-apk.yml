@@ -37,12 +37,17 @@ jobs:
       - name: Build Web Application
         run: npm run build
 
+  
+      - name: Install Capacitor
+        run: npm install --legacy-peer-deps @capacitor/cli @capacitor/core @capacitor/android
+
       - name: Setup Android Platform
         run: |
           if [ ! -d android ]; then
             npx cap add android
           fi
           npx cap sync android
+
 
       - name: Build APK
         run: |
